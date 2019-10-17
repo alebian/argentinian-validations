@@ -1,0 +1,21 @@
+language: ruby
+rvm:
+  - 2.3.0
+  - 2.4.0
+  - 2.5.0
+  - 2.6.0
+
+install:
+  - gem install bundler -v 1.17.3
+  - bundle install --retry=3
+
+script:
+  - bundle exec rspec
+  - bundle exec rubocop Gemfile lib spec
+
+addons:
+    code_climate:
+        repo_token: 86b6df4bcfa62c8e9c14d57182fa0a75444e11c397dc1f8571f2dfa8fe5f0227
+
+os:
+  - linux

@@ -45,6 +45,11 @@ module Argentinian
       def checksum_mod(checksum, value)
         value - (checksum % value)
       end
+
+      def sum_each_element(array)
+        # Some Ruby versions do not have the method `sum` in the Enumerable module
+        array.inject(0) { |sum, element| sum + element }
+      end
     end
   end
 end

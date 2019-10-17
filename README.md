@@ -1,5 +1,10 @@
 # Argentinian::Validations
 
+[![Gem Version](https://badge.fury.io/rb/crf.svg)](https://badge.fury.io/rb/crf)
+[![Build Status](https://travis-ci.org/alebian/argentinian-validations.svg)](https://travis-ci.org/alebian/argentinian-validations)
+[![Code Climate](https://codeclimate.com/github/alebian/argentinian-validations/badges/gpa.svg)](https://codeclimate.com/github/alebian/argentinian-validations)
+[![Test Coverage](https://codeclimate.com/github/alebian/argentinian-validations/badges/coverage.svg)](https://codeclimate.com/github/alebian/argentinian-validations/coverage)
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/argentinian/validations`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem

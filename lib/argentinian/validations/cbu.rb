@@ -35,7 +35,7 @@ module Argentinian
 
       def validate_block(block, multipliers, validation)
         block = string_to_int_array(block)
-        checksum = multiply_each_element(block, multipliers).sum
+        checksum = sum_each_element(multiply_each_element(block, multipliers))
 
         if validation.to_i.zero?
           checksum_mod(checksum, 10) == 10
