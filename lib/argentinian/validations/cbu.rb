@@ -26,7 +26,9 @@ module Argentinian
       end
 
       def correct_account?
-        correct = validate_block(@value[8..20], [3, 9, 7, 1, 3, 9, 7, 1, 3, 9, 7, 1, 3], @value[21])
+        correct = validate_block(
+          @value[8..20], [3, 9, 7, 1, 3, 9, 7, 1, 3, 9, 7, 1, 3], @value[21]
+        )
         @errors << 'Account is invalid' unless correct
         correct
       end

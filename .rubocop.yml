@@ -11,3 +11,10 @@ LineLength:
 
 FrozenStringLiteralComment:
   Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*

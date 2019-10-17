@@ -22,7 +22,7 @@ module Argentinian
       private
 
       def numeric?
-        Float(@value).present?
+        !!Float(@value)
       rescue ArgumentError
         @errors << 'Value is not numeric'
         false
