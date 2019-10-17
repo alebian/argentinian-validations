@@ -1,7 +1,7 @@
 module Argentinian
   module Validations
     class Cuil < Base
-      class CuitError < StandardError; end
+      class InvalidNumberError < StandardError; end
 
       def valid?
         numeric? && correct_length?(11) && correct_number?
@@ -10,7 +10,7 @@ module Argentinian
       def validate!
         raise NotNumericError unless numeric?
         raise LengthError unless correct_length?(11)
-        raise CuitError unless correct_number?
+        raise InvalidNumberError unless correct_number?
 
         @value
       end
@@ -30,7 +30,7 @@ module Argentinian
         if checksum == 11
           checksum = 0
         elsif checksum == 10
-          raise CuitError
+          raise InvalidNumberError
         end
 
         validation.to_i == checksum

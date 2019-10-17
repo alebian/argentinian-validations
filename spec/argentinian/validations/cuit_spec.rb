@@ -85,7 +85,8 @@ describe Argentinian::Validations::Cuit do
       let(:cuit) { invalid_cuit }
 
       it 'raises a CuitError' do
-        expect { validator.validate! }.to raise_error(Argentinian::Validations::Cuit::CuitError)
+        expect { validator.validate! }
+          .to raise_error(Argentinian::Validations::Cuit::InvalidNumberError)
       end
     end
   end
