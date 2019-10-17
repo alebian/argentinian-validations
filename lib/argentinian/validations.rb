@@ -1,8 +1,10 @@
-require "argentinian/validations/version"
+require 'argentinian/validations/version'
+require 'argentinian/validations/base'
+require 'argentinian/validations/cbu'
+require 'argentinian/validations/cuil'
+require 'argentinian/validations/cuit'
 
 module Argentinian
   module Validations
-    class Error < StandardError; end
-    # Your code goes here...
   end
 end
