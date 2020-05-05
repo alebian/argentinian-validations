@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gemspec
 
 group :development, :test do
-  gem 'byebug', '~> 11.0'
+  gem 'byebug', '~> 11.1'
 end
 
 group :test do
