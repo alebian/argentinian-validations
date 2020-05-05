@@ -17,6 +17,7 @@ GEM
     rack (2.2.2)
     rainbow (3.0.0)
     rake (13.0.1)
+    rexml (3.2.4)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -30,13 +31,14 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.0)
-    rubocop (0.75.1)
+    rubocop (0.82.0)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
-      parser (>= 2.6)
+      parser (>= 2.7.0.1)
       rainbow (>= 2.2.2, < 4.0)
+      rexml
       ruby-progressbar (~> 1.7)
-      unicode-display_width (>= 1.4.0, < 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
     rubocop-performance (1.5.0)
       rubocop (>= 0.71.0)
     rubocop-rails (2.3.2)
@@ -49,7 +51,7 @@ GEM
       docile (~> 1.1)
       simplecov-html (~> 0.11)
     simplecov-html (0.12.2)
-    unicode-display_width (1.6.1)
+    unicode-display_width (1.7.0)
 
 PLATFORMS
   ruby
@@ -60,7 +62,7 @@ DEPENDENCIES
   byebug (~> 11.0)
   rake (~> 13.0)
   rspec (~> 3.8)
-  rubocop (~> 0.74)
+  rubocop (~> 0.82)
   rubocop-performance (~> 1.4)
   rubocop-rails (~> 2.3)
   rubocop-rspec (~> 1.39)
