@@ -10,7 +10,7 @@ end
 group :test do
   gem 'rspec', '~> 3.8'
   gem 'rubocop', '~> 0.82'
-  gem 'rubocop-performance', '~> 1.4'
+  gem 'rubocop-performance', '~> 1.5'
   gem 'rubocop-rails', '~> 2.3'
   gem 'rubocop-rspec', '~> 1.39'
   gem 'simplecov', '~> 0.18.5'

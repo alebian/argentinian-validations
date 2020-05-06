@@ -39,7 +39,7 @@ GEM
       rexml
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 2.0)
-    rubocop-performance (1.5.0)
+    rubocop-performance (1.5.2)
       rubocop (>= 0.71.0)
     rubocop-rails (2.3.2)
       rack (>= 1.1)
@@ -58,12 +58,12 @@ PLATFORMS
 
 DEPENDENCIES
   argentinian-validations!
-  bundler (~> 1.17)
+  bundler (~> 2.1)
   byebug (~> 11.1)
   rake (~> 13.0)
   rspec (~> 3.8)
   rubocop (~> 0.82)
-  rubocop-performance (~> 1.4)
+  rubocop-performance (~> 1.5)
   rubocop-rails (~> 2.3)
   rubocop-rspec (~> 1.39)
   simplecov (~> 0.18.5)
