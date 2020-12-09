@@ -12,6 +12,6 @@ group :test do
   gem 'rubocop', '~> 0.82'
   gem 'rubocop-performance', '~> 1.7'
   gem 'rubocop-rails', '~> 2.6'
-  gem 'rubocop-rspec', '~> 1.39'
+  gem 'rubocop-rspec', '~> 1.41'
   gem 'simplecov', '~> 0.18.5'
 end
