@@ -8,7 +8,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'rspec', '~> 3.8'
+  gem 'rspec', '~> 3.10'
   gem 'rubocop', '~> 0.82'
   gem 'rubocop-performance', '~> 1.7'
   gem 'rubocop-rails', '~> 2.6'
